@@ -1,0 +1,2 @@
+# Type Coercion Leading to NaN in TypeScript
+This repository demonstrates a subtle bug in TypeScript where type coercion can lead to unexpected NaN results.  The `add` function is declared to take two numbers, but it does not explicitly prevent type coercion, allowing a string to be passed in, resulting in a runtime error.
